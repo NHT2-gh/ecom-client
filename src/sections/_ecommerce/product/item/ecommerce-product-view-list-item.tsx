@@ -33,7 +33,7 @@ export default function EcommerceProductViewListItem({ product, ...other }: Prop
       }}
       {...other}
     >
-      {product.label === 'new' && (
+      {/* {product.label === 'new' && (
         <Label color="info" sx={{ position: 'absolute', m: 1, top: 0, left: 0, zIndex: 9 }}>
           NEW
         </Label>
@@ -43,7 +43,7 @@ export default function EcommerceProductViewListItem({ product, ...other }: Prop
         <Label color="error" sx={{ position: 'absolute', m: 1, top: 0, left: 0, zIndex: 9 }}>
           SALE
         </Label>
-      )}
+      )} */}
 
       <Fab
         component={RouterLink}
@@ -72,9 +72,11 @@ export default function EcommerceProductViewListItem({ product, ...other }: Prop
         sx={{
           mr: 2,
           width: 160,
+          height:160,
           flexShrink: 0,
           borderRadius: 1.5,
           bgcolor: 'background.neutral',
+          objectFit: 'fill'
         }}
       />
 
@@ -91,7 +93,7 @@ export default function EcommerceProductViewListItem({ product, ...other }: Prop
           </Link>
         </Stack>
 
-        <ProductRating ratingNumber={product.ratingNumber} label={`${product.sold} sold`} />
+        {/* <ProductRating ratingNumber={product.ratingNumber} label={`${product.sold} sold`} /> */}
 
         <TextMaxLine variant="body2" line={1} sx={{ color: 'text.secondary' }}>
           {product.caption}

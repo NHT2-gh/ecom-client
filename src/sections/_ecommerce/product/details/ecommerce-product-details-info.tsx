@@ -22,18 +22,21 @@ import ProductOptionPicker from '../../common/product-option-picker';
 // ----------------------------------------------------------------------
 
 const COLOR_OPTIONS = [
-  { label: '#FA541C', value: 'red' },
-  { label: '#754FFE', value: 'violet' },
-  { label: '#00B8D9', value: 'cyan' },
-  { label: '#36B37E', value: 'green' },
+  { label: '#000000', value: 'black' }, // Black
+  { label: '#0000FF', value: 'blue' }, // Blue
+  { label: '#FF0000', value: 'red' }, // Red
+  { label: '#008000', value: 'green' }, // Green
+  { label: '#e0e0e0', value: 'silver' }, // Silver
+  { label: '#A52A2A', value: 'brown' }, // Brown
+  { label: '#FFD700', value: 'gold' }, // Gold
 ];
 
-const MEMORY_OPTIONS = [
-  { label: '128GB', value: '128gb' },
-  { label: '256GB', value: '256gb' },
-  { label: '512GB', value: '512gb' },
-  { label: '1TB', value: '1tb' },
-];
+// const MEMORY_OPTIONS = [
+//   { label: '128GB', value: '128gb' },
+//   { label: '256GB', value: '256gb' },
+//   { label: '512GB', value: '512gb' },
+//   { label: '1TB', value: '1tb' },
+// ];
 
 // ----------------------------------------------------------------------
 
@@ -100,14 +103,14 @@ export default function EcommerceProductDetailsInfo({
           <ProductColorPicker value={color} onChange={handleChangeColor} options={COLOR_OPTIONS} />
         </Stack>
 
-        <Stack spacing={2}>
+        {/* <Stack spacing={2}>
           <Typography variant="subtitle2">Memory</Typography>
           <ProductOptionPicker
             value={memory}
             onChange={handleChangeMemory}
             options={MEMORY_OPTIONS}
           />
-        </Stack>
+        </Stack> */}
       </Stack>
 
       <Stack spacing={2} direction={{ xs: 'column', md: 'row' }} alignItems={{ md: 'center' }}>

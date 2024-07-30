@@ -40,7 +40,7 @@ export default function EcommerceCartSummary({ tax, total, subtotal, shipping, d
         <Row label="Shipping" value={fCurrency(shipping)} />
       </Stack>
 
-      <TextField
+      {/* <TextField
         hiddenLabel
         placeholder="Discount Code"
         InputProps={{
@@ -50,7 +50,7 @@ export default function EcommerceCartSummary({ tax, total, subtotal, shipping, d
             </InputAdornment>
           ),
         }}
-      />
+      /> */}
 
       <Divider sx={{ borderStyle: 'dashed' }} />
 

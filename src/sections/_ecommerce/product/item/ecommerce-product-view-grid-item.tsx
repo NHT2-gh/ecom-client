@@ -34,7 +34,7 @@ export default function EcommerceProductViewGridItem({ product, sx, ...other }: 
       }}
       {...other}
     >
-      {product.label === 'new' && (
+      {/* {product.label === 'new' && (
         <Label color="info" sx={{ position: 'absolute', m: 1, top: 0, right: 0, zIndex: 9 }}>
           NEW
         </Label>
@@ -44,7 +44,7 @@ export default function EcommerceProductViewGridItem({ product, sx, ...other }: 
         <Label color="error" sx={{ position: 'absolute', m: 1, top: 0, right: 0, zIndex: 9 }}>
           SALE
         </Label>
-      )}
+      )} */}
 
       <Box sx={{ position: 'relative', mb: 2 }}>
         <Fab
@@ -74,6 +74,7 @@ export default function EcommerceProductViewGridItem({ product, sx, ...other }: 
           sx={{
             flexShrink: 0,
             borderRadius: 1.5,
+            height:160,
             bgcolor: 'background.neutral',
           }}
         />
@@ -92,7 +93,8 @@ export default function EcommerceProductViewGridItem({ product, sx, ...other }: 
 
         <ProductPrice price={product.price} priceSale={product.priceSale} />
 
-        <ProductRating ratingNumber={product.ratingNumber} label={`${product.sold} sold`} />
+        {/* <ProductRating ratingNumber={product.ratingNumber} label={`${product.sold} sold`} /> */}
+
       </Stack>
     </Stack>
   );

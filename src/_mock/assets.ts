@@ -62,31 +62,23 @@ export const _nativeL = [
 // ----------------------------------------------------------------------
 
 export const _productNames = [
-  'Nike Air Force 1 NDESTRUKT',
-  'Foundations Matte Flip Flop',
-  'Nike Air Zoom Pegasus 37 A.I.R. Chaz Bear',
-  'Arizona Soft Footbed Sandal',
-  'Boston Soft Footbed Sandal',
-  'Zoom Freak 2',
-  'Gazelle Vintage low-top sneakers',
-  'Jordan Delta',
-  'Air Jordan XXXV PF',
-  'Rod Laver low-top sneakers',
-  'Kyrie 7 EP Sisterhood',
-  'Pharrell Williams Human Race NMD sneakers',
-  'Nike Blazer Low 77 Vintage',
-  'ASMC Winter Boot Cold.Rdy',
-  'ZX 8000 Lego sneakers',
-  'Ultraboost 21 sneakers',
-  '2750 Cotu Classic Sneaker',
-  'ZX 9000 A-ZX Series sneakers',
-  'Madrid Big Buckle Sandal',
-  'Chuck 70 Hi Sneaker',
-  'Relaxed Adjustable Strap Slingback Sandal',
-  'Superturf Adventure X Atmos',
-  'Chuck Taylor All Star Lift Sneaker',
-  'Run Star Hike Platform Sneaker',
+  'Rolex Submariner 126610LN',
+  'Omega Seamaster Diver 300M',
+  'Tag Heuer Carrera Calibre 16',
+  'Casio G-Shock GBA-900UU-5ADR',
+  'Seiko Prospex SRPD21',
+  'Citizen Promaster Diver Super Titanium BN0200-56E',
+  'Breitling Navitimer B01 Chronograph',
+  'Patek Philippe Nautilus 5711/1A',
+  'Audemars Piguet Royal Oak Offshore',
+  'Tissot Le Locle Powermatic 80',
+  'Fossil Grant Chronograph',
+  'Longines HydroConquest L3.742.4.56.6',
+  'Hamilton Khaki Field Mechanical',
+  'Oris Aquis Date 73377304159MB'
 ];
+
+
 
 // ----------------------------------------------------------------------
 
@@ -115,3 +107,39 @@ export const _descriptions = [
   `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor diam, consectetur sit amet scelerisque ut, accumsan ut orci. Aenean mauris leo, blandit tristique tristique ac, elementum eu tortor.`,
   `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor diam, consectetur sit amet scelerisque ut, accumsan ut orci. Aenean mauris leo, blandit tristique tristique ac, elementum eu tortor.`,
 ];
+
+export const _color = [
+  'Black',
+  'Blue',
+  'Black',
+  'Brown',
+  'Green',
+  'Silver',
+  'Brown',
+  'Gold',
+  'Silver',
+  'Black',
+  'Blue',
+  'Blue',
+  'Green',
+  'Blue'
+];
+
+export const _images = [
+  'https://product.hstatic.net/200000484659/product/m126610ln-0001_358a8e411cde4627ba5efae89409be22_master.jpg',
+  'https://cdn.luxshopping.vn/Thumnails/Uploads/News/omega-seamaster-diver-300m-210-20-42-20-03-002-co-axial-42.png_980_980.webp',
+  'https://product.hstatic.net/1000332793/product/cv2a1s_master.jpg',
+  'https://product.hstatic.net/1000388227/product/gba-900uu-5adr_bdd26277b90d432f83654510d911e6eb_master.png',
+  'https://wornandwound.com/library/uploads/2019/08/Seiko-SRPD23-Save-the-Oceans.jpg',
+  'https://www.watchspecialists.com/app/uploads/2022/01/citizen-BN0200-56E-promaster-diver-super-titanium-bracelet-mens-watch.jpg',
+  'https://www.chisholmhunter.co.uk/media/catalog/product/2/-/2-125-04-0027_p_1.jpg',
+  'https://frodos.com.vn/wp-content/uploads/2020/09/patek-nautilus-5711-1a.png',
+  'https://empireluxury.vn/wp-content/uploads/2022/04/dong-ho-audemars-piguet-royal-oak-offshore-diver-15710st-oo-a002ca-01-3.jpg',
+  'https://donghoduyanh.com/images/products/2021/07/01/large/t0064071103300_1625108169.jpg',
+  'https://product.hstatic.net/200000597439/product/fs4813-1_684806a6e975474198a3e2fe0b754088_master.jpg',
+  'https://donghoduyanh.com/images/products/2020/03/17/large/dong_ho_longines_l37424566.jpg',
+  'https://donghoduyanh.com/images/products/2021/02/02/large/dong-ho-hamilton-h69429931_1612261153.jpg',
+  'https://images.watchfinder.co.uk/imgv2/catalogue/39797/Oris-Aquis-73377304159MB-39797-200916-071401-.jpg;quality=90;h=600,%20https://images.watchfinder.co.uk/imgv2/catalogue/39797/Oris-Aquis-73377304159MB-39797-200916-071401-.jpg;quality=55;h=1200%202x ',
+];
+
+

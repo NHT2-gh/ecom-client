@@ -43,7 +43,7 @@ export default function EcommerceCartItem({ product, wishlist }: Props) {
         <Stack spacing={0.5} sx={{ p: 2 }}>
           <Typography variant="subtitle2">{product.name}</Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            Color: Grey Space
+            {product.color}
           </Typography>
         </Stack>
       </Stack>

@@ -20,10 +20,10 @@ import FilterCategory from './filter-category';
 
 // ----------------------------------------------------------------------
 
-const BRAND_OPTIONS = ['Nike', 'Adidas', 'Puma'];
+const BRAND_OPTIONS = ['Rolex', 'Omega', 'Certina', 'Apple', 'Samsung'];
 
 const CATEGORY_OPTIONS = [
-  'Perfume', 'Shoes'
+  'AVIATOR', 'MILITARY', 'RACING', 'DIVER', 'SMART', 'SPORT', 'LUXURY'
 ];
 
 // ----------------------------------------------------------------------

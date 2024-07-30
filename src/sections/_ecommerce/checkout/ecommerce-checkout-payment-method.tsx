@@ -14,7 +14,7 @@ import Iconify from 'src/components/iconify';
 type OptionProps = {
   label: string;
   value: string;
-  description: string;
+  // description: string;
 };
 
 type Props = {
@@ -59,7 +59,7 @@ type OptionItemProps = {
 };
 
 function OptionItem({ option, selected }: OptionItemProps) {
-  const { value, label, description } = option;
+  const { value, label } = option;
 
   const renderLabel = (
     <Stack flexGrow={1} spacing={0.5} sx={{ width: 1 }}>
@@ -78,9 +78,9 @@ function OptionItem({ option, selected }: OptionItemProps) {
         />
       </Stack>
 
-      <Box component="span" sx={{ typography: 'body2' }}>
+      {/* <Box component="span" sx={{ typography: 'body2' }}>
         {description}
-      </Box>
+      </Box> */}
     </Stack>
   );
 

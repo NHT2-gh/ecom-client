@@ -14,6 +14,7 @@ export type IProductItemProps = {
   label: string;
   price: number;
   caption: string;
+  color: string;
   stock: number;
   coverUrl: string;
   category: string;

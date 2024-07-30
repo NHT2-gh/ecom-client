@@ -117,7 +117,7 @@ export default function EcommerceProductsView() {
           <EcommerceProductList
             loading={loading.value}
             viewMode={viewMode}
-            products={_products.slice(0, 16)}
+            products={_products.slice(0, 14)}
           />
         </Box>
       </Stack>

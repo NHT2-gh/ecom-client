@@ -10,6 +10,8 @@ import {
   _fullNames,
   _descriptions,
   _productNames,
+  _images,
+  _color,
 } from './assets';
 
 // ----------------------------------------------------------------------
@@ -31,8 +33,14 @@ export const _mock = {
     nativeL: (index: number) => _nativeL[index],
   },
   // Image
+  // image: {
+  //   avatar: (index: number) => `/assets/images/avatar/avatar_${index + 1}.jpg`,
+  //   product: (index: number) => `/assets/images/z_product/product_${index + 1}.png`,
+  // },
   image: {
     avatar: (index: number) => `/assets/images/avatar/avatar_${index + 1}.jpg`,
-    product: (index: number) => `/assets/images/z_product/product_${index + 1}.png`,
+    product: (index: number) => _images[index],
   },
+
+  color: (index: number) => _color[index]
 };

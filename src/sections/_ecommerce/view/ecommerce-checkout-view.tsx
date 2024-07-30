@@ -43,31 +43,19 @@ const SHIPPING_OPTIONS = [
     label: 'Standard',
     value: 'standard',
     description: '3-5 Days delivery',
-    price: 10,
-  },
-  {
-    label: 'Express',
-    value: 'express',
-    description: '2-3 Days delivery',
-    price: 20,
-  },
+    price: 3,
+  }
 ];
 
 const PAYMENT_OPTIONS = [
   {
-    label: 'Paypal',
-    value: 'paypal',
-    description: '**** **** **** 1234',
+    label: 'ZaloPay',
+    value: 'zalopay',
   },
   {
-    label: 'MasterCard',
-    value: 'mastercard',
-    description: '**** **** **** 3456',
-  },
-  {
-    label: 'Visa',
-    value: 'visa',
-    description: '**** **** **** 6789',
+    label: 'Cash On Delivery',
+    value: 'cashOnDelivery',
+    // description: '',
   },
 ];
 
@@ -97,7 +85,7 @@ export default function EcommerceCheckoutView() {
     streetAddress: '',
     city: '',
     shipping: 'free',
-    paymentMethods: 'mastercard',
+    paymentMethods: 'Cash on Delivery (COD)',
     newCard: {
       cardNumber: '',
       cardHolder: '',
